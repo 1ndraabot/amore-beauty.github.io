@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html {
+        font-family: "Poppins";
+    }
+
+    h1 {
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    h2{
+        font-weight: 600;
+        font-size: 13;
+        line-height: normal;
+        
+    }
+
+    p{
+        font-family: Poppins;
+        font-style: italic;
+    }
+}
